@@ -140,11 +140,11 @@ int main() //Responsavel pela execução do programa
 	    	break;
 	    	
 	    	case 2:
-	        consulta(); //Chamda da função de consulta 
+	        consulta(); //Chamada da função de consulta 
 	    	break;
 	    	
 	    	case 3:
-	        deletar(); //Chamda da função deletar
+	        deletar(); //Chamada da função deletar
 	    	break;
 	    	
 	    	default:
