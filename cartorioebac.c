@@ -127,6 +127,7 @@ int main() //Responsavel pela execução do programa
 	    printf("\t1 - Registrar nomes\n");
 	    printf("\t2 - Consultar nomes\n");
 	    printf("\t3 - Deletar nomes\n"); 
+	    printf("\t4 - Sair do sistema\n");
 	    printf("\nOpção: "); //Fim do menu
 	
 	    scanf("%d", &opcao); //Armazenamento
@@ -147,10 +148,15 @@ int main() //Responsavel pela execução do programa
 	        deletar(); //Chamada da função deletar
 	    	break;
 	    	
+	    	case 4:
+	    	printf("Obrigado por utilizar o sistema!\n");
+	    	return 0;
+	    	break;
+	    	
 	    	default:
 	    	printf("Essa opção não está disponivel!\n");
 	    	system ("pause");
 	    	break;	
 		}	
     	} //Fim da seleção
-}
+    }
